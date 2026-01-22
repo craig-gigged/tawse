@@ -18,7 +18,17 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY_BASE64 }}" | base64 -d > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
+
+          # Debug: Show key fingerprint (safe to display)
+          echo "Key fingerprint:"
+          ssh-keygen -l -f ~/.ssh/deploy_key
+
+          # Add host to known_hosts
           ssh-keyscan -p 18765 ${{ secrets.SFTP_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Test SSH Connection
+        run: |
+          ssh -i ~/.ssh/deploy_key -p 18765 -o StrictHostKeyChecking=no -v ${{ secrets.SFTP_USERNAME }}@${{ secrets.SFTP_HOST }} "echo 'SSH connection successful'" 2>&1 | head -50
 
       - name: Deploy via rsync over SSH
         run: |
