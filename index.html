@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tawse ITM - Professional electrical services including Solar PV, Battery Storage, EV Chargers and all electrical installations across Scotland.">
+    <meta name="keywords" content="electrician, solar PV, battery storage, EV charger, electric vehicle charger, electrical installation, Scotland">
+    <title>Tawse ITM | Solar PV, Battery Storage & Electrical Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="logo-text">TAWSE</span>
+                <span class="logo-accent">ITM</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <button class="nav__close" id="nav-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="nav__actions">
+                <a href="tel:+441234567890" class="nav__phone">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    <span>Call Us</span>
+                </a>
+                <button class="nav__toggle" id="nav-toggle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__background">
+                <div class="hero__overlay"></div>
+            </div>
+            <div class="hero__content container">
+                <div class="hero__data">
+                    <span class="hero__subtitle">Professional Electrical Services</span>
+                    <h1 class="hero__title">
+                        Powering Your Future with
+                        <span class="highlight">Sustainable Energy</span>
+                    </h1>
+                    <p class="hero__description">
+                        Expert installation of Solar PV systems, Battery Storage, EV Chargers,
+                        and comprehensive electrical services. Trusted professionals delivering
+                        quality workmanship across Scotland.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#contact" class="btn btn--primary">
+                            Get Free Quote
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#services" class="btn btn--outline-white">
+                            Our Services
+                        </a>
+                    </div>
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <span class="stat__number">500+</span>
+                            <span class="stat__label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">15+</span>
+                            <span class="stat__label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">100%</span>
+                            <span class="stat__label">Certified Work</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__scroll">
+                <a href="#services" class="scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 5v14M5 12l7 7 7-7"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">What We Offer</span>
+                    <h2 class="section__title">Our Services</h2>
+                    <p class="section__description">
+                        From renewable energy solutions to complete electrical installations,
+                        we deliver professional services tailored to your needs.
+                    </p>
+                </div>
+
+                <div class="services__grid">
+                    <!-- Solar PV -->
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Solar PV Installation</h3>
+                        <p class="service-card__description">
+                            Harness the power of the sun with our professionally installed solar panel systems.
+                            Reduce your energy bills and carbon footprint with clean, renewable energy.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Residential & Commercial Systems</li>
+                            <li>MCS Certified Installation</li>
+                            <li>System Design & Planning</li>
+                            <li>Monitoring Solutions</li>
+                        </ul>
+                        <a href="#contact" class="service-card__link">
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </article>
+
+                    <!-- Battery Storage -->
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="1" y="6" width="18" height="12" rx="2" ry="2"></rect>
+                                <line x1="23" y1="13" x2="23" y2="11"></line>
+                                <path d="M7 10v4"></path>
+                                <path d="M11 10v4"></path>
+                                <path d="M15 10v4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Battery Storage</h3>
+                        <p class="service-card__description">
+                            Store excess energy and use it when you need it most. Our battery solutions
+                            maximise your solar investment and provide backup power security.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Leading Brand Batteries</li>
+                            <li>Solar Integration</li>
+                            <li>Smart Energy Management</li>
+                            <li>Backup Power Systems</li>
+                        </ul>
+                        <a href="#contact" class="service-card__link">
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </article>
+
+                    <!-- EV Chargers -->
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <path d="M9 22V12h6v10"></path>
+                                <path d="M12 12V8"></path>
+                                <circle cx="12" cy="6" r="1"></circle>
+                                <path d="M7 2h10"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">EV Charger Installation</h3>
+                        <p class="service-card__description">
+                            Future-proof your home or business with electric vehicle charging.
+                            Fast, reliable charging solutions for all EV makes and models.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Home & Workplace Chargers</li>
+                            <li>OZEV Grant Approved</li>
+                            <li>Smart Charging Features</li>
+                            <li>All Major Brands</li>
+                        </ul>
+                        <a href="#contact" class="service-card__link">
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </article>
+
+                    <!-- Electrical Installations -->
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Electrical Installations</h3>
+                        <p class="service-card__description">
+                            Complete electrical services for domestic and commercial properties.
+                            From rewiring to new installations, we handle all your electrical needs.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Full & Partial Rewires</li>
+                            <li>Consumer Unit Upgrades</li>
+                            <li>Lighting Design</li>
+                            <li>Testing & Certification</li>
+                        </ul>
+                        <a href="#contact" class="service-card__link">
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="features section">
+            <div class="container">
+                <div class="features__content">
+                    <div class="features__info">
+                        <span class="section__subtitle">Why Choose Us</span>
+                        <h2 class="section__title">Quality You Can Trust</h2>
+                        <p class="features__description">
+                            With years of experience and a commitment to excellence, we deliver
+                            electrical solutions that stand the test of time. Our certified
+                            professionals ensure every installation meets the highest standards.
+                        </p>
+
+                        <div class="features__list">
+                            <div class="feature-item">
+                                <div class="feature-item__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="feature-item__content">
+                                    <h4>Fully Certified</h4>
+                                    <p>MCS accredited and NICEIC approved for complete peace of mind</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item">
+                                <div class="feature-item__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="feature-item__content">
+                                    <h4>Reliable Service</h4>
+                                    <p>On-time arrivals and project completion you can count on</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item">
+                                <div class="feature-item__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                    </svg>
+                                </div>
+                                <div class="feature-item__content">
+                                    <h4>Warranty Protected</h4>
+                                    <p>Comprehensive warranties on all installations and products</p>
+                                </div>
+                            </div>
+
+                            <div class="feature-item">
+                                <div class="feature-item__icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                    </svg>
+                                </div>
+                                <div class="feature-item__content">
+                                    <h4>Competitive Pricing</h4>
+                                    <p>Fair, transparent quotes with no hidden costs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="features__visual">
+                        <div class="accreditations">
+                            <h4>Our Accreditations</h4>
+                            <div class="accreditations__grid">
+                                <div class="accreditation-badge">
+                                    <span>MCS</span>
+                                    <small>Certified</small>
+                                </div>
+                                <div class="accreditation-badge">
+                                    <span>NICEIC</span>
+                                    <small>Approved</small>
+                                </div>
+                                <div class="accreditation-badge">
+                                    <span>OZEV</span>
+                                    <small>Authorised</small>
+                                </div>
+                                <div class="accreditation-badge">
+                                    <span>Part P</span>
+                                    <small>Registered</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__image">
+                        <div class="about__image-wrapper">
+                            <div class="about__shape"></div>
+                            <div class="about__experience">
+                                <span class="about__experience-number">15+</span>
+                                <span class="about__experience-text">Years of Excellence</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about__info">
+                        <span class="section__subtitle">About Us</span>
+                        <h2 class="section__title">Your Local Electrical Experts</h2>
+                        <p class="about__description">
+                            Tawse ITM has been delivering exceptional electrical services for over 15 years.
+                            As specialists in renewable energy solutions, we're passionate about helping
+                            homes and businesses transition to sustainable power.
+                        </p>
+                        <p class="about__description">
+                            Our team of qualified electricians brings expertise, reliability, and a
+                            commitment to quality that sets us apart. From initial consultation to
+                            completed installation, we're with you every step of the way.
+                        </p>
+
+                        <div class="about__highlights">
+                            <div class="highlight">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Family-run business</span>
+                            </div>
+                            <div class="highlight">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Local to Scotland</span>
+                            </div>
+                            <div class="highlight">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Free no-obligation quotes</span>
+                            </div>
+                            <div class="highlight">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Aftercare support</span>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="btn btn--primary">
+                            Get in Touch
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Testimonials</span>
+                    <h2 class="section__title">What Our Customers Say</h2>
+                </div>
+
+                <div class="testimonials__grid">
+                    <article class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        </div>
+                        <p class="testimonial-card__text">
+                            "Excellent service from start to finish. The team installed our solar panels
+                            efficiently and professionally. Already seeing great savings on our energy bills!"
+                        </p>
+                        <div class="testimonial-card__author">
+                            <div class="testimonial-card__avatar">JM</div>
+                            <div class="testimonial-card__info">
+                                <span class="testimonial-card__name">James M.</span>
+                                <span class="testimonial-card__service">Solar PV Installation</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        </div>
+                        <p class="testimonial-card__text">
+                            "Had an EV charger installed last month. The team was knowledgeable, tidy,
+                            and completed the work ahead of schedule. Highly recommend!"
+                        </p>
+                        <div class="testimonial-card__author">
+                            <div class="testimonial-card__avatar">SK</div>
+                            <div class="testimonial-card__info">
+                                <span class="testimonial-card__name">Sarah K.</span>
+                                <span class="testimonial-card__service">EV Charger Installation</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        </div>
+                        <p class="testimonial-card__text">
+                            "Complete rewire of our property was handled brilliantly. Fair pricing,
+                            excellent communication throughout, and a spotless finish. True professionals."
+                        </p>
+                        <div class="testimonial-card__author">
+                            <div class="testimonial-card__avatar">DT</div>
+                            <div class="testimonial-card__info">
+                                <span class="testimonial-card__name">David T.</span>
+                                <span class="testimonial-card__service">Full Rewire</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Ready to Start Your Project?</h2>
+                    <p class="cta__description">
+                        Get a free, no-obligation quote today. Our team is ready to discuss
+                        your requirements and provide expert advice.
+                    </p>
+                    <div class="cta__buttons">
+                        <a href="#contact" class="btn btn--white">
+                            Request Quote
+                        </a>
+                        <a href="tel:+441234567890" class="btn btn--outline-white">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            Call Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__subtitle">Get in Touch</span>
+                    <h2 class="section__title">Contact Us</h2>
+                    <p class="section__description">
+                        Have a question or ready to start your project?
+                        We'd love to hear from you.
+                    </p>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="contact-item__content">
+                                <h4>Phone</h4>
+                                <a href="tel:+441234567890">01onal 567 890</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-item__content">
+                                <h4>Email</h4>
+                                <a href="mailto:info@tawse-itm.co.uk">info@tawse-itm.co.uk</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact-item__content">
+                                <h4>Location</h4>
+                                <p>Serving Scotland</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-item__content">
+                                <h4>Hours</h4>
+                                <p>Mon - Fri: 8am - 6pm</p>
+                                <p>Sat: 9am - 2pm</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact__form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required placeholder="your@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="solar">Solar PV Installation</option>
+                                <option value="battery">Battery Storage</option>
+                                <option value="ev">EV Charger Installation</option>
+                                <option value="electrical">Electrical Installation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary btn--full">
+                            Send Message
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo">
+                        <span class="logo-text">TAWSE</span>
+                        <span class="logo-accent">ITM</span>
+                    </a>
+                    <p class="footer__description">
+                        Professional electrical services specialising in renewable energy
+                        solutions. Powering homes and businesses across Scotland.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Solar PV</a></li>
+                            <li><a href="#services">Battery Storage</a></li>
+                            <li><a href="#services">EV Chargers</a></li>
+                            <li><a href="#services">Electrical Work</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="tel:+441234567890">01234 567 890</a></li>
+                            <li><a href="mailto:info@tawse-itm.co.uk">info@tawse-itm.co.uk</a></li>
+                            <li>Serving Scotland</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2025 Tawse ITM. All rights reserved.</p>
+                <p>MCS Certified | NICEIC Approved | OZEV Authorised</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
